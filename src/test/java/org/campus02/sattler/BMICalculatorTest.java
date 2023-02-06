@@ -23,7 +23,7 @@ class BMICalculatorTest {
     void testConstructor() {
         double expectedWeight = 180;
         Assertions.assertEquals(expectedWeight, bmiCalculator.getWeightInKg());
-        Assertions.assertEquals(1.8, bmiCalculator.getHeightInMeters());
+        Assertions.assertEquals(1.9, bmiCalculator.getHeightInMeters());
     }
 
     @Test
